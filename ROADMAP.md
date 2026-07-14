@@ -4,6 +4,7 @@ This is a contribution map, not a startup roadmap or a delivery promise. It show
 
 ## Now
 
+- keep the canonical readiness cockpit current: [docs/product-readiness.md](docs/product-readiness.md);
 - make dogfooding evidence visible through commands, fixtures, CI checks, generated reports, or linked docs;
 - stabilize product boundary docs;
 - maintain the tested `MissionRecord v1` schema, transition engine and approval fixtures; the card represents a mission, never an agent;

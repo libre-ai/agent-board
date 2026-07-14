@@ -15,6 +15,8 @@ A future human decision surface for agentic missions, blockers, approvals and ev
 | Not available | there is no local board, persistence, agent execution or hosted collaboration product |
 | Historical ID | `rumble-crew` may remain in historical references only |
 
+Readiness cockpit: [docs/product-readiness.md](docs/product-readiness.md).
+
 This repository intentionally avoids presenting a specification as an operational product.
 
 ## Product boundary
@@ -38,7 +40,7 @@ python3 scripts/validate_mission_contracts.py
 python3 -m unittest discover scripts/tests -v
 ```
 
-The contract and positive/negative fixtures live under `schemas/` and `fixtures/mission-record/`. `scripts/mission_runtime.py` applies optimistic-revision transitions to an immutable copy and validates the resulting record. Its tests cover start, declared activity, block, recovery, result submission, human acceptance, pre-execution refusal, stale writes and forbidden service verdicts. It does not persist data, execute or route an agent.
+The contract and positive/negative fixtures live under `schemas/` and `fixtures/mission-record/`. `scripts/mission_runtime.py` applies optimistic-revision transitions to an immutable copy and validates the resulting record. Its tests cover start, declared activity, block, recovery, result submission, human acceptance, pre-execution refusal, stale writes and forbidden service verdicts. It does not persist data, execute or route an agent. See the canonical local cockpit: [docs/product-readiness.md](docs/product-readiness.md).
 
 ## Next evidence
 
